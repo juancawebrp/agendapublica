@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+
+}
+ .flex-container {
+    display: flex;/*block;*/
+    /*border: 3px solid black;*/
+    /*width: 1348px;
+    height: 1024px;*/
+    flex-direction: column;/*coloca los items en columna y row en fila*/
+    flex-wrap: wrap;/*tira las cajas abajo cuando se diminuye la resolución de pantalla*//*flex-flow: colum wrap*/
+    justify-content: center;/*space-around*/
+    
+ }
+
+.c-box1{
+/*border: 2px solid blue;*/
+/*width: 1344px;
+height: 190px;*/
+/*display: flex;*/
+/*position: absolute;*/ 
+/*text-align: center;*/
+width: 1366px;
+height: 130px;
+}
+
+h1{
+   color: #0b4af7;
+   position: absolute;
+   text-align: center;
+   padding-left: 125px;
+   text-shadow: 0.1em 0.1em 0.05em #f4f7f8
+}
+ .c-box1 img{
+    width: 1366px;
+    height: 130px;
+   /* position: absolute;*/
+   object-fit:cover;
+   /*object-position:top;*/
+   /*filter: brightness(1.75);*/
+   /*filter: brightness(1);*/
+ }
+
+
+
+/*.c-box2{
+   width: 1366px;
+   height: 100%;
+}*/
+
+.flex-item__menu{
+   /*margin-left: 100px;*/
+   background-color: lightskyblue;
+   color: white;
+   width: 100%;
+   height: 527px;
+   /*position: absolute;*/
+
+}
+
+.boton{
+   margin-top: 22px;
+   margin-left: 490px;
+   position: relative;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: black;
+   color: white;
+   opacity: 0.8;
+   padding: 1px;
+}
+
+.boton:hover{
+   background-color: white;
+   color: black;
+   
+
+}
+
+.c-box2 img{
+   width: 1366px;
+   height: 527px;
+   position: absolute; 
+   object-fit: cover;  
+}
